@@ -1,0 +1,7 @@
+import React from "react";
+
+export const BoxPropsContext = React.createContext({
+  colorValue: "red",
+  sizeValue: "250",
+  changeColor: console.log("default box created"),
+});
